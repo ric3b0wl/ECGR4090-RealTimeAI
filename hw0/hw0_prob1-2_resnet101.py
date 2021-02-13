@@ -6,7 +6,7 @@ import argparse
 # parse the command line
 parser = argparse.ArgumentParser()
 parser.add_argument("filename", type=str, help="filename of the image to process")
-parser.add_argument("--network", type=str, default="resnet101", help="model to use, can be:  googlenet, resnet-18, ect.")
+parser.add_argument("--network", type=str, default="resnet-101", help="model to use, can be:  googlenet, resnet-18, ect.")
 args = parser.parse_args()
 
 # load an image (into shared CPU/GPU memory)
