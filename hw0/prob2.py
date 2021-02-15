@@ -4,7 +4,7 @@ import torch
 
 netG = ResNetGenerator()
 
-model_path = '../data/p1ch2/horse2zebra_0.4.0.pth'
+model_path = '../horse2zebra_0.4.0.pth'
 model_data = torch.load(model_path)
 netG.load_state_dict(model_data)
 
@@ -19,5 +19,5 @@ batch_out = netG(batch_t)
 
 out_t = (batch_out.data.squeeze() + 1.0) / 2.0
 out_img = transforms.ToPILImage()(out_t)
-out_img.save('../data/p1ch2/zebra.jpg')
+out_img.save('../zebra_0.jpg')
 
