@@ -8,3 +8,9 @@ NOT responsible for any Honor Code Violation. Only placing code and progress on 
 
 ## Description
 ### coming soon...
+
+
+##hw1 Yolo v5 demo video
+ [![Lab 4](https://img.youtube.com/vi/raz6AccXkZc/0.jpg)](https://youtu.be/raz6AccXkZc)
+
+  https://youtu.be/raz6AccXkZc
